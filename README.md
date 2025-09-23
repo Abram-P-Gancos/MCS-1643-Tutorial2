@@ -1,9 +1,9 @@
 #### MCS 1643 README file
 # **Replace this Project Name**
 
-#### Author: *Replace this with your name*
+#### Author: *Abram Gancos*
 
-##### Modified: *2024-09-06*
+##### Modified: *2025-09-23*
 
 <br>
 
