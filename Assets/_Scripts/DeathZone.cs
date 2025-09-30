@@ -6,7 +6,7 @@ using UnityEngine;
 public class DeathZone : MonoBehaviour
 {
     public Transform startPos;
-    public GameObject ballprefab;
+    public GameObject ballPrefab;
     public int opposingPlayer;
     public AudioClip outSound;
 
@@ -21,10 +21,10 @@ public class DeathZone : MonoBehaviour
             Destroy(other.gameObject);
 
 
-             if (GameManager.playing == true)
-            {
-                Instantiate(ballprefab, startPos.position, Quaternion.identity);
-            }
+           
+        
+                Instantiate(ballPrefab, startPos.position, Quaternion.identity);
+           
         }
     }
 }

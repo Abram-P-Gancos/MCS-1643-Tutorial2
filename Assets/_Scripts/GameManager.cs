@@ -53,19 +53,18 @@ public class GameManager : MonoBehaviour
             {
                 playing = false;
             }
-            else if (player == 2)
+        }
+        else if (player == 2)
+        {
+            Player2Score++;
+            if (Player2Score == winningScore)
             {
-                Player2Score++;
-                if(Player2Score == winningScore)
-                {
-                    playing = false;
-                }
+                playing = false;
             }
         }
     }
     public void Restart ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

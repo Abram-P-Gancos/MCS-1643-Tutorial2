@@ -23,7 +23,7 @@ public class Ball : MonoBehaviour
 
         if(Random.value < .5f)
         {
-            angle += 180;
+            angle += 90;
         }
 
         //set the ball to the angle
